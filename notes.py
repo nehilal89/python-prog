@@ -19,3 +19,7 @@ def sum(xs):
     return count
 
 print(sum(mylist))
+
+def mean(xs):
+    return sum(xs)/len(xs)
+print (mean(mylist))
