@@ -11,3 +11,11 @@ def length (xl):
 
 print(length(mylist))
 print(length([ ]))
+
+def sum(xs):
+    count=0
+    for i in xs:
+        count=count+i
+    return count
+
+print(sum(mylist))
